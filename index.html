@@ -428,7 +428,6 @@
     </button>
     <p class="modal-item">Leave your contacts and we will call you back</p>
     <form>
-      
       <div class="filed">
         <label class="modal-label" for="user-name">Name</label>
         <div class="modal-filed">
@@ -456,7 +455,20 @@
           </svg>
         </div>
       </div>
-      
+      <div class="modal-context">
+        <label class="modal-label" for="user-comment">Comment</label>
+        <textarea class="modal-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+      </div>
+      <div class="modal-check">
+        <input class="input-check visually-hidden" type="checkbox" id="user-privacy" value="true" name="user-privacy" />
+        <label class="checkbox-label" for="user-privacy"><span class="check-span"><svg class="check-icon" width="10"
+              height="8">
+              <use href="./images/icons1.svg#icon-Checkbox"></use>
+            </svg></span>I accept the terms and conditions of the<a class="text-privacy" href="">Privacy Policy</a></label>
+      </div>
+      <button class="btn-check" type="submit">Send</button>
+      </form>
+      </div>
 
     </form>
   </div>
