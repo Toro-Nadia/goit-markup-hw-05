@@ -674,7 +674,7 @@ flex-basis: calc((100% - 72px)/4);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .sec-icon:focus + .modal-icon-svg{
+    .sec-icon:focus + .sec-icon{
         fill: #4D5AE5;
     }
 
